@@ -5,6 +5,10 @@ html {
     color: black;
 }
 
+/* -------------------------------------------------------------- versione Desktop ------------------------------------------------*/
+@media (min-width: 992px)  { 
+
+
 h1 {
     font-size: 5em;
     font-family: 'Spectral', serif;
@@ -167,7 +171,7 @@ div.testoscheda {
 }
 
 .testoscheda span {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 0.9em;
 }
 
@@ -299,4 +303,616 @@ div.flx img {
 .footer {
     border-top: #d1cfcf 1px solid;
     padding-top: 15px;
+} }
+
+/* -------------------------------------------------------------- versione tablet ------------------------------------------------*/
+@media (min-width: 577px)   { 
+
+   
+    h1 {
+        font-size: 5em;
+        font-family: 'Spectral', serif;
+        letter-spacing: -5px;
+    }
+    
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    
+    header,
+    .daterate,
+    nav,
+    header img,
+    ul,
+    .cont1,
+    .sezobj,
+    div.testoscheda,
+    .sezionea,
+    .sezione1 {
+        display: flex;
+    }
+    
+    nav ul li {
+        list-style: none;
+        padding: 0px;
+        margin: 0px 10px;
+        font-size: 0.6em;
+    }
+    
+    ul {
+        align-items: center;
+    }
+    
+    nav ul :nth-child(5) {
+        background-color: #000000;
+        color: white;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    
+    
+    
+    nav {
+        padding: 10px;
+        ;
+    }
+    
+    header {
+        justify-content: space-between;
+        padding: 2% 1%;
+        position: sticky;
+    }
+    
+    .topbar {
+        border-bottom: solid black 1px;
+        background-color: #FFC017;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        transition: background-color 0.3s ease;
+    
+    
+    
+    
+    }
+    
+ 
+
+    body div.topbar img {
+        width: 20%;
+        ;
+    }
+    
+    .cont1 {
+        justify-content: space-between;
+        background-color: #FFC017;
+        max-height: min-content;
+        border-bottom: #000000 1px solid;
+    }
+    
+    p.startread {
+        margin-top: 40px;
+        padding: 8px 30px;
+        color: white;
+        background-color: #000000;
+        width: max-content;
+        border-radius: 25px;
+        font-size: 0.8em;
+    }
+    
+    div.cont1 div.cont1left {
+        padding: 40px 10px;
+        margin: 1% 2%;
+    }
+    
+    div.cont1 div.cont1right {
+        height: 300px;
+    }
+    
+    .intro {
+        width: 70%;
+        margin-top: 20px;
+    }
+    
+    .numeros {
+        font-size: 1.7em;
+        color: #F2F2F2;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    
+    .schedeart {
+        padding: 0% 2%
+    }
+    
+    .sezione1 {
+        align-items: center;
+        font-size: 0.6em;
+        font-weight: 700;
+        padding: 20px 0px 0px 0px;
+        text-transform: uppercase;
+    }
+    
+    
+    .sezione2 {
+        flex-wrap: wrap;
+        width: 48%;
+        margin: 1%;
+    }
+    
+    .sezobj {
+        font-size: 0.7em;
+        line-height: 1.8em;
+    }
+    
+    .titlebox {
+        font-weight: bold;
+    }
+    
+    div.testoscheda img {
+        border-radius: 90px;
+        width: 10%;
+        margin-right: 5px;
+    }
+    
+    div.testoscheda {
+        align-items: center;
+    }
+    
+    .datebox {
+        color: #6b6b6b;
+        ;
+    }
+    
+    .sezionea {
+        flex-wrap: wrap;
+    }
+    
+    .sezione1 img {
+        width: 20px;
+    }
+    
+    .testoscheda span {
+        font-weight: bold;
+        font-size: 0.9em;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .autore img {
+        border-radius: 90px;
+        width: 20px;
+        margin-right: 5px;
+    }
+    
+    .autore {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+    
+    .titlebox2 {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 10px 0px;
+    }
+    
+    .parbox2 {
+        color: #6b6b6b;
+    }
+    
+    .daterate {
+        color: #6b6b6b;
+        padding: 5px 0px;
+        align-items: center;
+        font-size: 0.8em;
+    }
+    
+    
+    .daterate span {
+        background-color: #F2F2F2;
+        border-radius: 15px;
+        padding: 5px;
+        font-size: 0.8em;
+    }
+    
+    
+    .titp2 {
+        width: 70%;
+        margin-right: 2%;
+    }
+    
+    .imgp2 {
+        width: 30%;
+    }
+    
+    .imgp2 img {
+        width: 100%;
+    }
+    
+    .articoli {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+    
+    .flx {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    aside {
+        width: 100%;
+    }
+    
+    .artandaside {
+        display: flex;
+        padding: 3% 4%;
+        margin: 40px 0;
+        border-top: 1px solid rgb(214, 214, 214);
+        flex-direction: column-reverse;
+    }
+    
+    .contenitorearticoli {
+        width: 100%;
+        margin-right: 10%;
+    }
+    
+    .parte3 div.tag p {
+        padding: 8px;
+        border: solid 1px rgb(216, 215, 215);
+        border-radius: 3px;
+        font-size: 0.6em;
+        color: #6b6b6b;
+        margin: 3px;
+    }
+    
+    .parte3 div.tag {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px 0px;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.7em;
+    }
+    
+    aside div p {}
+    
+    .parte3 div.footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px 0px;
+    }
+    
+    .parte3 div.footer p {
+        font-size: 0.6em;
+        color: #6b6b6b;
+        margin: 3px;
+    }
+    
+    div.flx img {
+        width: 20px;
+    }
+    
+    .footer {
+        border-top: #d1cfcf 1px solid;
+        padding-top: 15px;
+    } }
+
+
+/* -------------------------------------------------------------- versione Mobile ------------------------------------------------*/
+@media (min-width: 0px) and (max-width: 576px){ 
+
+    
+    h1 {
+        font-size: 4em;
+        font-family: 'Spectral', serif;
+        letter-spacing: -5px;
+    }
+    
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    
+    header,
+    .daterate,
+    nav,
+    header img,
+    ul,
+    .cont1,
+    .sezobj,
+    div.testoscheda,
+    .sezionea,
+    .sezione1 {
+        display: flex;
+    }
+    
+    nav ul li {
+        list-style: none;
+        padding: 0px;
+        margin: 0px 10px;
+        font-size: 0.6em;
+    }
+    
+    ul {
+        align-items: center;
+    }
+    
+    nav ul :nth-child(5) {
+        background-color: #000000;
+        color: white;
+        padding: 10px;
+        border-radius: 35px;
+    }
+    
+    
+    
+    nav {
+        padding: 10px;
+        ;
+    }
+    
+    header {
+        justify-content: space-between;
+        padding: 0% 2%;
+        position: sticky;
+    }
+    
+    .topbar {
+        border-bottom: solid black 1px;
+        background-color: #FFC017;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        transition: background-color 0.3s ease;
+    
+    
+    
+    
+    }
+    ul.menu :nth-child(1), ul.menu :nth-child(2), ul.menu :nth-child(3), .cont1right{display: none}
+
+
+    body div.topbar img {
+        width: 25%;
+        ;
+    }
+    
+    .cont1 {
+        justify-content: space-between;
+        background-color: #FFC017;
+        max-height: min-content;
+        border-bottom: #000000 1px solid;
+    }
+    
+    p.startread {
+        margin: 50 0 ;
+        padding: 8px 30px;
+        color: white;
+        background-color: #000000;
+        width: max-content;
+        border-radius: 25px;
+        font-size: 0.8em;
+    }
+    
+    div.cont1 div.cont1left {
+        padding: 50px 10px ;
+        margin: 0% 10%;
+    }
+    
+    div.cont1 div.cont1right {
+        height: 300px;
+    }
+    
+    .intro {
+        width: 90%;
+        margin: 25px 0px;
+    }
+    
+    .numeros {
+        font-size: 1.7em;
+        color: #F2F2F2;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    
+    .schedeart {
+        padding: 0% 2%
+    }
+    
+    .sezione1 {
+        align-items: center;
+        font-size: 0.6em;
+        font-weight: 700;
+        padding: 20px 0px 0px 0px;
+        text-transform: uppercase;
+    }
+    
+    
+    .sezione2 {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 1%;
+    }
+    
+    .sezobj {
+        font-size: 0.7em;
+        line-height: 1.8em;
+    }
+    
+    .titlebox {
+        font-weight: bold;
+    }
+    
+    div.testoscheda img {
+        border-radius: 90px;
+        width: 20px;
+        margin-right: 5px;
+    }
+    
+    div.testoscheda {
+        align-items: center;
+    }
+    
+    .datebox {
+        color: #6b6b6b;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sezionea {
+        flex-wrap: wrap;
+    }
+    
+    .sezione1 img {
+        width: 20px;
+    }
+    
+    .testoscheda span {
+        font-weight: 500;
+        font-size: 0.9em;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .autore img {
+        border-radius: 90px;
+        width: 20px;
+        margin-right: 5px;
+    }
+    
+    .autore {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 0.9em;
+    }
+    
+    .titlebox2 {
+        font-size: 1.2em;
+        font-weight: 700;
+        padding: 10px 0px;
+    }
+    
+    .parbox2 {
+        color: #6b6b6b;
+    }
+    
+    .daterate {
+        color: #6b6b6b;
+        padding: 5px 0px;
+        align-items: center;
+        font-size: 0.8em;
+    }
+    
+    
+    .daterate span {
+        background-color: #F2F2F2;
+        border-radius: 15px;
+        padding: 5px;
+        font-size: 0.8em;
+    }
+    
+    
+    .titp2 {
+        width: 70%;
+        margin-right: 2%;
+    }
+    
+    .imgp2 {
+        width: 30%;
+    }
+    
+    .imgp2 img {
+        width: 100%;
+    }
+    
+    .articoli {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        font-size: 0.8em;
+    }
+    
+    .flx {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    aside {
+        width: 100%;
+    }
+    
+    .artandaside {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 3% 3%;
+        margin: 40px 0;
+        border-top: 1px solid rgb(214, 214, 214);
+    }
+    
+    .contenitorearticoli {
+        width: 100%;
+        margin-right: 10%;
+    }
+    
+    .parte3 div.tag p {
+        padding: 8px;
+        border: solid 1px rgb(216, 215, 215);
+        border-radius: 3px;
+        font-size: 0.6em;
+        color: #6b6b6b;
+        margin: 3px;
+    }
+    
+    .parte3 div.tag {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px 0px;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.7em;
+    }
+    
+    aside div p {}
+    
+    .parte3 div.footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px 0px;
+    }
+    
+    .parte3 div.footer p {
+        font-size: 1.1em;
+        color: #b3b3b3;
+        margin: 3px;
+    }
+    
+    div.flx img {
+        width: 20px;
+    }
+    
+    .footer {
+        border-top: #d1cfcf 1px solid;
+        padding-top: 15px;
+    } 
 }
+    
