@@ -101,7 +101,7 @@ p.startread {
 
 div.cont1 div.cont1left {
     padding: 40px 100px;
-    margin: 0% 10%;
+    margin: 0% 3%;
 }
 
 div.cont1 div.cont1right {
@@ -246,7 +246,10 @@ div.testoscheda {
 }
 
 aside {
+    position: sticky;
+    top: 0;
     width: 30%;
+    
 }
 
 .artandaside {
@@ -303,10 +306,14 @@ div.flx img {
 .footer {
     border-top: #d1cfcf 1px solid;
     padding-top: 15px;
-} }
+} 
+.sticky {
+    position: fixed;
+    top: 0;
+  }}
 
 /* -------------------------------------------------------------- versione tablet ------------------------------------------------*/
-@media (min-width: 577px)   { 
+@media (min-width: 577px)  and (max-width: 991px) { 
 
    
     h1 {
